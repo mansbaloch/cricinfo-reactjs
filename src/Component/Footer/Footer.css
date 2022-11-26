@@ -1,0 +1,58 @@
+.footer {
+	padding: 60px 0;
+	width: 100%;
+	background: white;
+	color: rgb(20, 19, 19);
+
+}
+
+.footer-title {
+	border: (#000, 1px);
+
+	font-size: medium;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+
+}
+
+.footer-title:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: px;
+	background: #0b0b0b;
+}
+
+.footer-links a {
+	padding: 10px 0;
+	font-size: small;
+	color: rgb(10, 10, 10);
+	display: block;
+	transition: color 0.5s ease-in-out;
+	text-decoration: none;
+
+}
+
+.footer-links a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+
+
+
+
+
+/* g. Footer bottom section */
+.footer-bottom {
+	width: 100%;
+
+	padding: 5px 0;
+	text-align: center;
+	color: rgb(15, 15, 15);
+	background: lightgray;
+}
